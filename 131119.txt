@@ -1,0 +1,73 @@
+5. 
+-  git add shopping_list.txt.txt
+-  git commit -m "Add 5 items to the shopping list"
+6. 
+-  git add shopping_list.txt.txt
+-  git commit -m "Add quantities to the items"
+7.
+- git branch branch1
+- git branch branch2
+8.
+commit 4da5334ab57a7c85b9b1930d21407b979fb938dd (HEAD -> master, branch2, branch1)
+Author: ivan-kitanovski <ivankitanovski1@gmail.com>
+Date:   Sun Apr 10 20:29:36 2022 +0200
+
+    Add quantitite to the items
+
+commit baf0b17500d806a5c73e9ac8d5d2752708cd3781
+Author: ivan-kitanovski <ivankitanovski1@gmail.com>
+Date:   Sun Apr 10 20:28:55 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit d1602151364290da0031391af45bf0ca06c4206c (origin/master, origin/HEAD)
+Author: Ivan Kitanovski <ivankitanovski1@gmail.com>
+Date:   Sun Apr 10 20:26:28 2022 +0200
+
+    Update README.md
+
+commit 63abb04bd2699998b0496cfb9a45aa30bb481888
+Author: Ivan Kitanovski <ivankitanovski1@gmail.com>
+Date:   Sun Apr 10 20:26:11 2022 +0200
+9.
+- git push
+10.
+- git checkout branch1
+11.
+- git add shopping_list.txt
+- git commit -m "Change quantity of item #5"
+12. 
+- git checkout master
+13.
+- git add shopping_list.txt
+- git commit -m "Change quantity of item #2"
+14.
+- git push
+- git checkout branch1
+- git push --set-upstream origin branch1
+- git checkout branch2
+- git push --set-upstream origin branch2
+15.
+- git checkout branch2
+16.
+- git add shopping_list.txt
+- git commit -m "Modify item #4"
+17.
+commit 236c20c80c3d3e111f44e6cd1df99f69fdff9123 (HEAD -> branch2)
+Author: ivan-kitanovski <ivankitanovski1@gmail.com>
+Date:   Sun Apr 10 20:39:10 2022 +0200
+
+    Modify item #4
+18.
+- git add shopping_list.txt.txt
+- git commit --amend -m "Modify item #4 and add item #6"
+19.
+commit a3ef7f6339cd8f5a2e5fb336174ccefb3afceca1 (HEAD -> branch2)
+Author: ivan-kitanovski <ivankitanovski1@gmail.com>
+Date:   Sun Apr 10 20:39:10 2022 +0200
+
+    Modify item #4 and add item #6
+20.
+- git checkout master
+- git merge branch2
+
