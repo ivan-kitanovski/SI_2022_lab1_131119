@@ -1,5 +1,5 @@
 milk x 2
-eggs x 10
+eggs x 5
 coffee x 1
 chocolate x 3
 bread x 1
