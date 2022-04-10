@@ -1,5 +1,5 @@
-milk
-eggs
-coffee
-chocolate
-bread
+milk x 2
+eggs x 10
+coffee x 1
+chocolate x 3
+bread x 1
