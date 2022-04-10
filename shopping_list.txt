@@ -1,5 +1,6 @@
 milk x 2
 eggs x 10
 coffee x 1
-chocolate x 3
+water x 3
 bread x 1
+fish x 2
